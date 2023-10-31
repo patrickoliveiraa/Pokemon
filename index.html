@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Wiki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Pesquisa de Pokemon</h1>
+    <img class="pokemonIMG" src="img/pokemon.gif">
+    <input type="text" id="nomePokemon" placeholder="Digite o nome do Pokemon"></input>
+    <button type="button" onclick="buscaPokemon() " id="buscarPokemon">Pesquisar Pokemon</button>
+    <script src="js/script.js"></script>
+    <div id="buscarPokemon">
+        <h2>Nome do Pokemon: <span id="nomePokemon"></span></h2>
+        <p>Outros detalhes do Pokemon:</p>
+        <ul id="outrosDetalhes"></ul>
+    </div>
+</body>
+
+</html>
